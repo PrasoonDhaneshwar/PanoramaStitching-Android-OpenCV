@@ -124,8 +124,8 @@ public class PanoramaStitchingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTextViewJni = findViewById(R.id.textViewJni);
-        mTextViewJni.setText(NativePanorama.getMessageFromJni());
+        // mTextViewJni = findViewById(R.id.textViewJni);
+        // mTextViewJni.setText(NativePanorama.getMessageFromJni());
 
         isPreview = false;
         mSurfaceView = findViewById(R.id.surfaceView);
