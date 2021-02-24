@@ -25,8 +25,8 @@ JNIEXPORT jint JNICALL Java_com_prasoon_panoramastitching_NativePanorama_process
 
         // Reduce the resolution for fast computation
         float scale = 1000.0f / curimage.rows;
-        //resize(newimage, newimage, Size(scale * curimage.rows, scale * curimage.cols));
-        resize(newimage, newimage, Size(800,600));
+        resize(newimage, newimage, Size(scale * curimage.rows, scale * curimage.cols));
+        // resize(newimage, newimage, Size(800,600));
 
         imgVec.push_back(newimage);
       }
