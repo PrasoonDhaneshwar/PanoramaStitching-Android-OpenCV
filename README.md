@@ -16,4 +16,5 @@ Download Panorama Stitching-v1.0.apk to run in your Android phone.
 
 ## Usage:
 
-![](images/demo.webm)
+Click on "Capture" and move the camera in such a way that some part of previous capture will be visible.
+"Save" the panorama and allow time to process it.
